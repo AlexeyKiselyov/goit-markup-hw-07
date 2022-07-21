@@ -1,4 +1,4 @@
-# goit-markup-hw-05
+# goit-markup-hw-0
 
-ДЗ №6 (CSS Модуль№6 Формы) GoIT
+ДЗ №7 (CSS Модуль№7 BEM, SASS) GoIT
  
