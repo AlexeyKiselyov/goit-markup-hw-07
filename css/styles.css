@@ -12,7 +12,7 @@
 /* основной шрифт Roboto 400,500,700,*/
 /* шрифт для лого Raleway 700 */
 
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -22,9 +22,9 @@
   --bg-color-white-grey: #f5f4fa;
   --footer-auth-nav-color: rgba(255, 255, 255, 0.6);
   --transition-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
@@ -35,8 +35,9 @@ h1,
 h2,
 h3 {
   color: var(--title-text-color);
-}
-h1,
+} */
+
+/* h1,
 h2,
 h3,
 h4,
@@ -59,24 +60,24 @@ button {
 
 address {
   font-style: none;
-}
+} */
 
 /* утилиты */
 /* ---Placeholder-- */
-.list {
+/* .list {
   padding: 0;
   margin: 0;
 
   list-style: none;
 }
 
-/* шаблон uppercase */
 .uppercase {
   text-transform: uppercase;
 }
+*/
 
 /* утилита для скрытия текста */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -87,9 +88,9 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -100,16 +101,15 @@ address {
   text-align: center;
 }
 
-.container {
-  /* outline: 2px solid mediumseagreen; */
+ .container { 
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-}
+} 
 
 /* ----------HEADER----------- */
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -120,9 +120,9 @@ address {
 
 .header__nav {
   display: flex;
-}
+} */
 
-.logo {
+/* .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -138,10 +138,10 @@ address {
   padding-top: 24px;
   padding-bottom: 25px;
   color: var(--secondary-black-color);
-}
+} */
 
 /* ----------Navigation-------- */
-.nav-header__list {
+/* .nav-header__list {
   display: flex;
   margin-left: 92px;
   align-items: center;
@@ -186,11 +186,11 @@ address {
   height: 4px;
 
   border-radius: 2px;
-  background-color: var(--accent-color);
-}
+  background-color: var(--accent-color); 
+}*/
 
 /* -------Auth-Nav------- */
-.auth-nav {
+/* .auth-nav {
   display: flex;
   margin-left: auto;
   flex-wrap: wrap;
@@ -234,12 +234,12 @@ address {
   position: relative;
 
   transition: fill var(--transition-fast);
-}
+} */
 
 /* ----------MAIN----------- */
 
 /* ----------Hero----------- */
-.hero {
+/* .hero {
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -298,10 +298,10 @@ address {
 .hero__button:hover,
 .hero__button:focus {
   background-color: #188ce8;
-}
+} */
 
 /* -----------Feature------------*/
-.feature-list {
+/* .feature-list {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -331,10 +331,10 @@ address {
 
 .feature-list__text {
   line-height: 1.71;
-}
+} */
 
 /* -----------Activity---------- */
-.activity {
+/* .activity {
   padding-top: 0;
 }
 
@@ -370,10 +370,10 @@ address {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* -----------Team------------ */
-.team {
+/* .team {
   background-color: var(--bg-color-white-grey);
 }
 
@@ -441,10 +441,10 @@ address {
 .social-icons__item:focus {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
-}
+} */
 
 /* -------Regular customers------ */
-.regular__title {
+/* .regular__title {
   margin-bottom: 50px;
 }
 
@@ -475,10 +475,10 @@ address {
 
 .regular-list__icon {
   fill: inherit;
-}
+} */
 
 /*-----------FOOTER----------*/
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -493,10 +493,10 @@ address {
 .fotter__logo {
   color: var(--primary-white-color);
   line-height: 1.19;
-}
+} */
 
 /* ---------- Address -------- */
-.footer__contacts {
+/* .footer__contacts {
   margin-right: 70px;
 }
 
@@ -509,10 +509,10 @@ address {
   text-decoration: none;
   font-style: normal;
   line-height: 1.7;
-}
+} */
 
 /*----------Auth Nav----------*/
-.footer__auth-nav {
+/* .footer__auth-nav {
   margin-top: 9px;
   display: flex;
   flex-direction: column;
@@ -533,10 +533,10 @@ address {
 .footer-auth-nav__link:hover,
 .footer-auth-nav__link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ------Footer Join----------- */
-.footer__join {
+/* .footer__join {
   margin-top: 12px;
 }
 
@@ -546,10 +546,10 @@ address {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
-}
+} */
 /* -----------socials----------- */
 
-.footer-icons {
+/* .footer-icons {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -571,10 +571,10 @@ address {
 .footer-icons__item:hover,
 .footer-icons__item:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* -----------Form Footer Subscription------------ */
-.footer__subscribe-form {
+/* .footer__subscribe-form {
   display: flex;
   align-items: flex-end;
   gap: 12px;
@@ -645,12 +645,12 @@ address {
   right: 28px;
 
   transform: translateY(-50%);
-}
+} */
 
 /* -------------PORTFOLIO PAGE------------ */
 
 /* -------------Buttons-Filter------------ */
-.filter-list {
+/* .filter-list {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -691,11 +691,11 @@ address {
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* ---------- Work examples ----------- */
 
-.examples-list {
+/* .examples-list {
   display: flex;
   flex-basis: 370px;
   flex-wrap: wrap;
@@ -762,11 +762,11 @@ address {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
-}
+} */
 
 /* -----------Modal window------------ */
 
-.backdrop {
+/* .backdrop {
   width: 100%;
   height: 100%;
 
@@ -787,9 +787,9 @@ address {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 /* --------modal-------- */
-.modal {
+/* .modal {
   padding: 40px;
   width: 528px;
   height: 581px;
@@ -828,10 +828,10 @@ address {
 
 .modal__icon {
   transition: fill var(--transition-fast);
-}
+} */
 
 /* -----------Form Data------------ */
-.form-data {
+/* .form-data {
   max-width: 448px;
   margin-left: auto;
   margin-right: auto;
@@ -979,4 +979,4 @@ address {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
-}
+} */
